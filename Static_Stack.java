@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 class StaticStack{
     int maxSize;
     int top;
@@ -74,41 +71,4 @@ public class Static_Stack{
         s.PrintStack();
      
     }
-
-
 }
-
-
-/*
-Pushed:10
-Pushed:23
-Pushed:45
-Pushed:67
-Pushed:89
-Stack overFlow cannot add 100
-Top element is :89
-Popped:89
-Is the stack empty ? :false
-Stack elements are(Top to bottom ):
-67
-45
-23
-10 
-*/
-=======
-public class Static_Stack {
-   public static void main(String[] var0) {
-      StaticStack var1 = new StaticStack(5);
-      var1.push(10);
-      var1.push(23);
-      var1.push(45);
-      var1.push(67);
-      var1.push(89);
-      var1.push(100);
-      System.out.println("Top element is :" + var1.peek());
-      var1.pop();
-      System.out.println("Is the stack empty ? :" + var1.isEmpty());
-      var1.PrintStack();
-   }
-}
->>>>>>> f73621e8af0f58c0b59f7c7350dd41e93a0206eb
