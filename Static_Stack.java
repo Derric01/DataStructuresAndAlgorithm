@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 class StaticStack{
@@ -94,3 +95,20 @@ Stack elements are(Top to bottom ):
 23
 10 
 */
+=======
+public class Static_Stack {
+   public static void main(String[] var0) {
+      StaticStack var1 = new StaticStack(5);
+      var1.push(10);
+      var1.push(23);
+      var1.push(45);
+      var1.push(67);
+      var1.push(89);
+      var1.push(100);
+      System.out.println("Top element is :" + var1.peek());
+      var1.pop();
+      System.out.println("Is the stack empty ? :" + var1.isEmpty());
+      var1.PrintStack();
+   }
+}
+>>>>>>> f73621e8af0f58c0b59f7c7350dd41e93a0206eb
