@@ -1,3 +1,4 @@
+package basics;
 public class varargsExample {
 
     // Method using varargs

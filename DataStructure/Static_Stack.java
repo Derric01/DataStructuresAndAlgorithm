@@ -1,3 +1,5 @@
+import basics.StaticStack;
+
 class StaticStack{
     int maxSize;
     int top;

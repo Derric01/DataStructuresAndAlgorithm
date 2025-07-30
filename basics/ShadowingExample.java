@@ -1,3 +1,4 @@
+package basics;
 public class ShadowingExample {
 
     int x = 10; // Instance variable

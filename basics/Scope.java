@@ -1,3 +1,4 @@
+package basics;
 public class Scope {
 
     // 🔹 Class (Static) Scope – shared across all objects

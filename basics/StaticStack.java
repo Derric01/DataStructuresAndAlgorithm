@@ -1,3 +1,4 @@
+package basics;
 class StaticStack {
    int maxSize;
    int top;
